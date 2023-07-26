@@ -13,7 +13,7 @@ int _atoi(char *s)
 	if (s[0] == '-')
 	{
 		sign = -1;
-		i++;
+		i--;
 	}
 	for (; s[i] != '\0'; i++)
 	{
