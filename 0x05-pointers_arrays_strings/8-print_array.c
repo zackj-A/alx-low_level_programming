@@ -5,7 +5,7 @@
  * @n: value 2
  * Return: void
  */
-void print_array(int *a, int n);
+void print_array(int *a, int n)
 {
 	int k;
 
