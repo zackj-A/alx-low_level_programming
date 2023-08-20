@@ -15,11 +15,3 @@ void _puts_recursion(char *s)
 	putchar(*s);
 	_puts_recursion(s + 1);
 }
-
-int main(void)
-{
-	char str[] = "Hello, recursion!";
-
-	_puts_recursion(str);
-	return (0);
-}
